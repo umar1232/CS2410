@@ -11,7 +11,17 @@
 	<!-- write your solution to Task 1 here -->
 	<div class="section">
 		<h2>Task 1 : String</h2>
+		<?php
+			$text = "I love programming";
+			
+			echo "<p>First letter is: substr($text,1,2)</p>";
+			echo "<p>Length of string is: strlen($text)</p>";
+			echo "<p>Last letter is: substr($text,16,1)</p>";
+			echo "<p>First six letters are: substr($text,0,6)</p>";
+			echo "<p>In capital: strtoupper($text)</p>";			
+		?>
 		
+		<p>First letter is: <?= substr($text,1,2)?></p>
 	
 	
 	</div>
